@@ -4,15 +4,15 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-  title: "Mizuki",
-  subtitle: "One demo website",
-  siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-  siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+  title: "竹林间雪",
+  subtitle: "愿有爱之人都被世界所爱",
+  siteURL: "https://ttgh.cc/", // 请替换为你的站点URL，以斜杠结尾
+  siteStartDate: "2026-07-18", // 站点开始运行日期，用于站点统计组件计算运行天数
 
   lang: SITE_LANG,
 
   themeColor: {
-    hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+    hue: 155, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
     fixed: false, // 对访问者隐藏主题色选择器
   },
 
@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
     // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
     mode: "text-icon",
     // 顶栏标题文本
-    text: "MizukiUI",
+    text: "竹林间雪",
     // 顶栏标题图标路径，默认使用 public/assets/home/home.webp
     icon: "assets/home/home.webp",
     // 网站Logo图片路径
