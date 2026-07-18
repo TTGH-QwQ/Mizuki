@@ -6,7 +6,7 @@ export const profileConfig: ProfileConfig = {
   name: "竹林间雪",
   bio: "愿有爱之人都被世界所爱",
   typewriter: {
-    enable: true, // 启用个人简介打字机效果
+    enable: false, // 启用个人简介打字机效果
     speed: 80, // 打字速度（毫秒）
   },
   links: [
