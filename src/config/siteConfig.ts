@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
     timeline: true, // 时间线页面开关
     albums: true, // 相册页面开关
     devices: true, // 设备页面开关
-    aiTools: true, // AI 工具页面开关
+    aiTools: false, // AI 工具页面开关
   },
 
   // 顶栏标题配置
@@ -175,7 +175,7 @@ export const siteConfig: SiteConfig = {
     },
 
     navbar: {
-      transparentMode: "semifull", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
+      transparentMode: "semi", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
     },
   },
   toc: {
@@ -212,7 +212,7 @@ export const siteConfig: SiteConfig = {
   // 卡片样式配置
   card: {
     border: true, // 开启卡片边框和微阴影，让卡片更有立体感
-    followTheme: false, // 卡片背景跟随主题色相
+    followTheme: true, // 卡片背景跟随主题色相
   },
   // 图片优化配置
   imageOptimization: {
